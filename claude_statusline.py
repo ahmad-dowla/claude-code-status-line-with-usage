@@ -136,13 +136,13 @@ def main():
     if five:
         util = five.get("utilization", 0)
         reset_str = format_reset(five.get("resets_at"))
-        parts.append(f"5h: {util:.0f}%{reset_str}")
+        parts.append(f"5h: {util:2.0f}%{reset_str}")
 
     seven = usage.get("seven_day")
     if seven:
         util = seven.get("utilization", 0)
         reset_str = format_reset(seven.get("resets_at"))
-        parts.append(f"7d: {util:.0f}%{reset_str}")
+        parts.append(f"7d: {util:2.0f}%{reset_str}")
 
     print("\n".join(parts))
 
