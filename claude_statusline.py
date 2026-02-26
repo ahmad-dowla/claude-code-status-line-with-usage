@@ -46,7 +46,7 @@ CST = timezone(timedelta(hours=-6))
 CONFIG_DIR = os.path.expanduser(sys.argv[1]) if len(sys.argv) > 1 else os.path.dirname(os.path.abspath(__file__))
 CACHE_FILE = os.path.join(CONFIG_DIR, ".usage_cache.json")
 CRED_FILE = os.path.join(CONFIG_DIR, ".credentials.json")
-CACHE_TTL = 120  # seconds between API refreshes
+CACHE_TTL = 30  # seconds between API refreshes
 
 
 def fetch_usage():
