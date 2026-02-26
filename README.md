@@ -1,5 +1,5 @@
 # Claude Code Status Line with 5-hour and 7-day Usage Limits
-Minimal status line that shows usage limits without having to constantly run the /usage command. I've used this with Claude's Team plan as of February 2026 which doesn't show separate limits for Sonnet vs Opus.
+Minimal status line that shows usage limits without having to constantly run the /usage command. I've used this on Windows 11 with Claude's Team plan as of February 2026 which doesn't show separate limits for Sonnet vs Opus. Haven't tested other OS.
 
 ```shell
 5h:  6% (4h 23m - 6pm)
