@@ -6,4 +6,4 @@ Minimal status line that shows usage limits without having to constantly run the
 7d: 78% (4.1d - 3/2)
 ```
 
-To use, place in a directory of your choice, and ask Claude to setup statusline using the file. Note that timezone is currently hardcoded to CST.
+To use, place claude_statusline.py in a directory of your choice, and ask Claude to setup statusline using the file. Note that timezone is currently hardcoded to CST.
